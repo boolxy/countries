@@ -58,11 +58,11 @@ export default function Country() {
                     </HStack>
                     <HStack>
                       <Box as='strong'>Currencies:</Box>
-                      <Box as='span'>{data.currencies.map(currency => currency.name).join(', ')}</Box>
+                      <Box as='span'>{data.currencies?.map(currency => currency.name).join(', ')}</Box>
                     </HStack>
                     <HStack>
                       <Box as='strong'>Languages:</Box>
-                      <Box as='span'>{data.languages.map(language => language.name).join(', ')}</Box>
+                      <Box as='span'>{data.languages?.map(language => language.name).join(', ')}</Box>
                     </HStack>
                   </Stack>
                 </Stack>
